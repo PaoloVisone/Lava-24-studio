@@ -1,5 +1,6 @@
 import '../css/ProjectCarousel.css';
 import useEmblaCarousel from 'embla-carousel-react';
+import { HashLink as Link } from 'react-router-hash-link'
 
 export default function ProjectCarousel() {
     const [emblaRef] = useEmblaCarousel({
@@ -25,9 +26,9 @@ export default function ProjectCarousel() {
                 <div className="embla__container">
                     {duplicatedButtons.map((button, i) => (
                         <div className="embla__slide" key={i}>
-                            <a href={button.link} className="carousel-button">
+                            <Link to={button.link} className="carousel-button">
                                 {button.text}
-                            </a>
+                            </Link>
                         </div>
                     ))}
                 </div>
