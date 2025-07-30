@@ -1,0 +1,55 @@
+/* 1) Overlay full‑screen */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.8s ease, visibility 0.8s;
+    opacity: 1;
+    visibility: visible;
+}
+
+.overlay--hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* 2) Contenitore relativo per logo + circle */
+.overlay__content {
+    position: relative;
+    width: 200px;
+    /* diametro del cerchio (adatta se cambi il size in CircularText) */
+    height: 200px;
+}
+
+/* 3) Logo al centro */
+.overlay__logo {
+    position: absolute;
+    inset: 0;
+    /* top:0; right:0; bottom:0; left:0; */
+    margin: auto;
+    /* vertical + horizontal auto-centering */
+    width: 120px;
+    height: auto;
+    z-index: 2;
+    /* sopra il testo */
+}
+
+/* 4) CircularText al centro, sotto il logo */
+.custom-class {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 100%;
+    /* pari al contenitore */
+    height: 100%;
+    z-index: 1;
+    /* sotto il logo */
+    pointer-events: none;
+}

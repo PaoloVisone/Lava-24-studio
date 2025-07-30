@@ -1,0 +1,106 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    z-index: 1000;
+    padding: 1rem 2rem;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.logo img {
+    width: 280px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover img {
+    transform: scale(1.05);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+}
+
+/* pulsanti di navigazione con effetto “gooey bubble” */
+.nav-links a {
+    text-decoration: none;
+    color: #ff4d00;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.5em 1.2em;
+    border-radius: 1vw;
+    background: rgba(255, 77, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    transition:
+        background 0.3s ease,
+        color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+/* “bolla” nascosta che esplode al hover */
+.nav-links a::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 77, 0, 0.2);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.4s ease, height 0.4s ease;
+    z-index: 0;
+}
+
+.nav-links a:hover {
+    color: #fff;
+    background: #ff4d00;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links a:hover::before {
+    width: 200%;
+    height: 200%;
+}
+
+/* link corrente */
+.nav-links a.active {
+    background: #fff;
+    color: #ff4d00;
+    font-weight: 700;
+    box-shadow: 0 2px 8px rgba(255, 77, 0, 0.07);
+}
+
+.nav-links a:hover:not(.active) {
+    color: #ffb380;
+    background: rgba(255, 77, 0, 0.07);
+}
+
+.navbar-gooeynav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .navbar-gooeynav {
+        display: none;
+    }
+
+    .nav-links {
+        display: none;
+    }
+}

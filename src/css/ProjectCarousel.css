@@ -1,0 +1,55 @@
+.embla-wrapper {
+    overflow: hidden;
+    width: 100%;
+    padding: 1rem 1rem;
+    background: transparent;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    position: absolute;
+    bottom: 0;
+}
+
+.embla {
+    overflow: hidden;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.embla__container {
+    display: flex;
+    gap: 10rem;
+    animation: scroll 10s linear infinite;
+    /* Raddoppiato il tempo dato i bottoni duplicati */
+    width: 200%;
+    /* Larghezza doppia per contenere i bottoni duplicati */
+}
+
+.embla__slide {
+    flex: 0 0 auto;
+    max-width: 300px;
+    white-space: nowrap;
+}
+
+/* Bottoni */
+.carousel-button {
+    border: 1px solid white;
+    padding: 10px 76px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.carousel-button:hover {
+    background-color: white;
+    color: black;
+}

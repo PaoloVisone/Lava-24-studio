@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <!-- FontAwesom -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <!-- Cursore -->
+  <div class="cursor"></div>
+  <script>const cursor = document.querySelector('.cursor');
+
+    document.addEventListener('mousemove', (e) => {
+      cursor.style.left = e.clientX + 'px';
+      cursor.style.top = e.clientY + 'px';
+
+      const hoveredElement = document.elementFromPoint(e.clientX, e.clientY);
+      if (hoveredElement && (hoveredElement.tagName === 'A' || hoveredElement.tagName === 'BUTTON')) {
+        cursor.style.transform = 'translate(-50%, -50%) scale(2)';
+      } else {
+        cursor.style.transform = 'translate(-50%, -50%) scale(1)';
+      }
+    });
+  </script>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+/* Definizione del font */
+@font-face {
+  font-family: 'Helvetica Ultra Compressed';
+  src: url('./assets/fonts/HelveticaUltraCompressed.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Prevenzione scroll orizzontale globale */
+* {
+  box-sizing: border-box;
+}
+
+/* Stili globali */
+:root {
+  --font-compressed: 'Helvetica Ultra Compressed', sans-serif;
+  --font--subtitle: "DM Sans", sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+.logo,
+.nav-link,
+p,
+span,
+a {
+  font-family: var(--font--subtitle);
+  font-optical-sizing: auto;
+  font-style: normal;
+  ;
+}
