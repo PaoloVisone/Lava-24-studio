@@ -52,7 +52,7 @@ export default function Navigation() {
                             <a href="https://www.instagram.com/lava24.studio/" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-instagram"></i>
                             </a>
-                            <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.tiktok.com%2F%40lava24studio%3F_t%3D8rkYxZoaKpC%26_r%3D1&e=AT1xYd3xMcGvdPu6__ixzntMlGUmbLd7ea1k6MEbUEcfk3quvsElIU15NY6BKWU7_a6wfc1j0XtCjilyYJEfU05-XwNomK9O" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.tiktok.com/@lava24studio?_t=ZN-8ySRwh6FVP4&_r=1" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-tiktok"></i>
                             </a>
                         </div>
