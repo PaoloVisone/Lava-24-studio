@@ -225,4 +225,11 @@
     .progetti-container {
         margin-bottom: 1.5rem;
     }
+
+    .booking-button {
+        padding: 16px 20px;
+        font-size: 18px;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
 }
