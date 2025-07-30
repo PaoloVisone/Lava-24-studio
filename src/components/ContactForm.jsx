@@ -2,6 +2,7 @@ import "../css/ContactForm.css"
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
+
 // Simulazione del DatePicker (sostituisci con react-datepicker se disponibile)
 const DatePicker = ({ selected, onChange, placeholderText, dateFormat, className, id }) => {
   const formatDate = (date) => {
@@ -194,12 +195,12 @@ export default function ContactForm() {
       </div>
 
       <div className="form-container">
-        <h2 className="form-title">PRONTO A FAR CRESCERE IL TUO BRAND?</h2>
+        <h2 className="form-title">Vuoi un brand impossibile da ignorare?</h2>
         <p className="form-subtitle">
-          Prenota una call con il nostro team e<br />
-          scopri come possiamo aiutarti a<br />
-          creare un'identità visiva e campagne<br />
-          video oltre gli schemi.
+          Il pubblico oggi decide in 3 secondi. <br />
+          Noi ti aiutiamo a giocarti al meglio quegli istanti decisivi. <br />
+          Se sei pronto, noi lo siamo da un pezzo. <br />
+          Prenota una call.
         </p>
 
         {/* Messaggio di feedback */}

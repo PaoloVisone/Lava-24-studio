@@ -47,9 +47,10 @@ export default function Hero() {
                     transition={{ delay: 0.2, duration: 3.5 }}
                     className="hero-subtitle"
                 >
-                    Eleva il tuo brand con strategie di branding, <br />
-                    content creation e video marketing pensate per <br />
-                    distinguerti e convertire.
+                    Non tutti i brand meritano attenzione. <br />
+                    Solo quelli che hanno qualcosa da dire. <br />
+                    Noi li aiutiamo a farlo. <br />
+                    Visivamente, Strategicamente, Potentemente.
                 </motion.p>
             </div>
             {/* Separatore */}

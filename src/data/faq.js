@@ -2,15 +2,15 @@
 const faq = [
     {
         title: '\u00A0Graphic Design',
-        content: "Il visivo come linguaggio progettuale. Non decoriamo, progettiamo. Il graphic design è la grammatica con cui diamo coerenza, ritmo e forza al tuo messaggio visivo. Ogni dettaglio è intenzionale"
+        content: "Non è solo estetica. È posizionamento. Logo, palette, tipografia, packaging, visual system. Tutto quello che serve per essere riconoscibili, ovunque."
     },
     {
         title: 'Produzione Video',
-        content: "Visione, ritmo, controllo. Ogni inquadratura è una scelta. Costruiamo narrazioni visive dove l'estetica incontra la strategia, e il messaggio prende forma in modo preciso, potente, necessario."
+        content: "Non ti serve un video. Ti serve qualcosa che le persone vogliano guardare fino all'ultimo. Dallo spot da 15 secondi al docufilm, scriviamo, giriamo, montiamo e ottimizziamo ogni contenuto per farlo funzionare — su ogni piattaforma, per il pubblico giusto."
     },
     {
         title: 'Branding',
-        content: "Diamo struttura all'istinto. Traduciamo intuizioni in sistemi visivi solidi. Perché un'identità non nasce dal caso, ma da una direzione precisa che riesce a farsi riconoscere, ovunque."
+        content: "Il branding non è un logo. È l'insieme di percezioni, coerenza e scelte strategiche. Noi ci entriamo dentro — e lo ricostruiamo da zero, se serve. Naming, brand voice, posizionamento, storytelling. Tutto, tranne l'irrilevanza."
     }
 ];
 

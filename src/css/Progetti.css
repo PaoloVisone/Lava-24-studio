@@ -1,5 +1,12 @@
+/* Reset title-container opacity */
 .title-container,
 .title-container * {
+    filter: none !important;
+    opacity: 1 !important;
+}
+
+.paragraph-container,
+.paragraph-container * {
     filter: none !important;
     opacity: 1 !important;
 }
@@ -17,22 +24,91 @@
     padding: 60px 20px;
     min-height: 100vh;
     box-sizing: border-box;
+    position: relative;
 }
 
 .progetti-container {
     position: relative;
     width: 100%;
-    height: auto;
     padding: 0;
     margin-bottom: 3rem;
-    overflow: visible;
-
+    overflow: hidden;
 }
 
 .progetti-container::after {
     content: '';
     display: block;
     clear: both;
+}
+
+.paragraph-container {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+
+.main-paragraph {
+    font-size: 24px;
+    line-height: 1.6;
+    color: #ffffff;
+    font-weight: 300;
+    margin: 0;
+}
+
+.main-paragraph strong {
+    font-weight: 600;
+}
+
+/* Text */
+
+.cta-text {
+    margin-bottom: 40px;
+}
+
+.cta-text p {
+    font-size: 24px;
+    line-height: 1.6;
+    color: #ffffff;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-text strong {
+    font-weight: 600;
+}
+
+/* Button */
+.cta-section {
+    text-align: center;
+    padding: 80px 20px 60px;
+    position: relative;
+    z-index: 10;
+}
+
+.booking-button {
+    background: linear-gradient(135deg, #ff6b35 0%, #ff8c42 100%);
+    color: #000000;
+    border: none;
+    padding: 18px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
+    text-decoration: none;
+}
+
+.booking-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(255, 107, 53, 0.6);
+    background: linear-gradient(135deg, #ff8c42 0%, #ff6b35 100%);
+}
+
+.booking-button:active {
+    transform: translateY(0);
 }
 
 .project-item {
