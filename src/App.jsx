@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // Componeti
 import Overlay from './components/Overlay';
 import ScrollToTop from './components/ScrollToTop';
-
+import GlobalScrollbarStyles from './components/CustomScrollbarStyles';
 // Layout
 import DefaultLayout from './layouts/DefaultLayout';
 // Pages
@@ -24,6 +24,7 @@ function App() {
 
   return (
     <BrowserRouter>
+      <GlobalScrollbarStyles />
       <Overlay isVisible={showOverlay} />
       {!showOverlay && (
         <ScrollToTop>
