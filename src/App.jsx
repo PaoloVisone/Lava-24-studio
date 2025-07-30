@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 // Componeti
 import Overlay from './components/Overlay';
 import ScrollToTop from './components/ScrollToTop';
@@ -23,7 +23,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <Router>
       <GlobalScrollbarStyles />
       <Overlay isVisible={showOverlay} />
       {!showOverlay && (
@@ -36,7 +36,7 @@ function App() {
           </Routes>
         </ScrollToTop>
       )}
-    </BrowserRouter>
+    </Router>
   );
 }
 
