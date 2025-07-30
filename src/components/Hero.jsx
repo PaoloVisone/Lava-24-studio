@@ -49,8 +49,9 @@ export default function Hero() {
                 >
                     Non tutti i brand meritano attenzione. <br />
                     Solo quelli che hanno qualcosa da dire. <br />
-                    Noi li aiutiamo a farlo. <br />
-                    Visivamente, Strategicamente, Potentemente.
+                    Noi trasformiamo quel messaggio <br />
+                    in qualcosa di impossibile da ignorare. <br />
+                    Visivamente. Strategicamente. Con marchio a fuoco.
                 </motion.p>
             </div>
             {/* Separatore */}
