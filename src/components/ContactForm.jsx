@@ -197,9 +197,9 @@ export default function ContactForm() {
       <div className="form-container">
         <h2 className="form-title">Vuoi un brand impossibile da ignorare?</h2>
         <p className="form-subtitle">
-          Il pubblico oggi decide in 3 secondi. <br />
-          Noi ti aiutiamo a giocarti al meglio quegli istanti decisivi. <br />
-          Se sei pronto, noi lo siamo da un pezzo. <br />
+          Tre secondi. È tutto il tempo che hai. <br />
+          Noi sappiamo come usarli bene. <br />
+          Se sei pronto, lo siamo anche noi. <br />
           Prenota una call.
         </p>
 
