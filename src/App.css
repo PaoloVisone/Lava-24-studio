@@ -56,3 +56,9 @@ h1 {
   transform: translate(-50%, -50%);
   transition: transform 0.2s ease-out;
 }
+
+@media (max-width: 768px) {
+  .cursor {
+    display: none;
+  }
+}

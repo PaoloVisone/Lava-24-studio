@@ -45,7 +45,7 @@ export default function Footer() {
                 </motion.div>
 
                 {/* Link rapidi */}
-                <motion.div
+                {/* <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.1 }}
@@ -58,7 +58,7 @@ export default function Footer() {
                         <li><a href="#progetti">PORTFOLIO</a></li>
                         <li><a href="#contatti">PRENOTA UNA CALL</a></li>
                     </ul>
-                </motion.div>
+                </motion.div> */}
 
                 {/* Copyright */}
                 <motion.div

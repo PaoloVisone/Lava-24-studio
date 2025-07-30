@@ -41,7 +41,7 @@ body {
 
 .form-container {
     max-width: 650px;
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: center;
     background: rgba(255, 255, 255, 0.03);
     backdrop-filter: blur(10px);

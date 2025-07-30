@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-// import Card from './Card';
+import { Link } from 'react-router-dom';
 import '../css/Projects.css';
 import CircularGallery from './CircularGallery'
 
@@ -19,9 +19,9 @@ export default function Projects() {
                 <CircularGallery bend={3} textColor="#ffffff" borderRadius={0.05} scrollEase={0.02} />
             </div>
 
-            <a href="/progetti" className="view-all-link">
+            <Link to="/progetti" className="view-all-link">
                 GUARDA TUTTI I NOSTRI PROGETTI
-            </a>
+            </Link>
         </section>
     );
 }
