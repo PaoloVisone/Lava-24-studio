@@ -1,12 +1,35 @@
-# React + Vite
+# 🌋 Lava-24-Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> 🔥 Agenzia creativa digitale – Branding, Video & Storytelling  
+> Un sito moderno sviluppato con **React + Vite** e distribuito su **Netlify**.  
 
-Currently, two official plugins are available:
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-lava24studio.netlify.app-orange?style=for-the-badge)](https://lava24studio.netlify.app/)  
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) 
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) 
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Lava-24-Studio** è il sito ufficiale di un’agenzia creativa con sede a Napoli, specializzata in:  
+- 🎨 **Branding**  
+- 🎬 **Produzione Video**  
+- ✍️ **Content Creation**  
+- 📖 **Storytelling**  
+
+L’obiettivo è comunicare con uno stile deciso, visivo e strategico, valorizzando il portfolio dell’agenzia.
+
+## 🛠 Tech Stack
+
+- **Framework:** React + Vite ⚡  
+- **Styling:** CSS moderno e responsive  
+- **Linting:** ESLint per clean code  
+- **Hosting:** Netlify 🚀
+
+## ⚡ Funzionalità principali
+
+- 🌐 Layout **responsive** e mobile-first  
+- ✨ **Animazioni fluide** e interazioni moderne  
+- 📑 **Sezioni chiare** (Chi siamo, Servizi, Portfolio, Team, CTA)  
+- 🚀 Deploy automatico su **Netlify**  
