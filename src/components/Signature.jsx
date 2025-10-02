@@ -29,7 +29,9 @@ export default function Singature() {
 
                     <p>
                         <span>BY.LAVA24™<br />
-                            STUDIO<br /></span>/FROM<br />NAPLES
+                            STUDIO</span> <br />
+                        /FROM <br />
+                        NAPLES
                     </p>
                 </motion.div>
             </div>

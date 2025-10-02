@@ -1,6 +1,6 @@
 .signature {
     position: relative;
-    height: 110vh;
+    height: 120vh;
 }
 
 .signature-block {
@@ -21,8 +21,8 @@
 }
 
 .signature-title {
-    font-size: 5rem;
-    font-weight: 100;
+    font-size: 4rem;
+    font-weight: 300;
     line-height: 4.2rem;
     margin-bottom: 2rem;
     text-align: end;
@@ -34,7 +34,7 @@
     text-transform: uppercase;
     color: rgb(56, 56, 56);
     font-weight: 900;
-    line-height: 4rem;
+    line-height: 5rem;
     text-align: start;
     align-self: flex-start;
     word-break: break-word;

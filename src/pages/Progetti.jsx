@@ -60,6 +60,13 @@ export default function Progetti() {
         1
     );
 
+    // Hook per determinare se siamo su mobile (aggiungi questo)
+    const isMobile = useMedia(
+        ['(min-width:768px)'],
+        [false],
+        true
+    );
+
     // Preload images
     useEffect(() => {
         Promise.all(items.map(i => new Image().src = i.img))
@@ -128,7 +135,11 @@ export default function Progetti() {
     return (
         <div className="page-wrapper progetti-page">
             <div ref={titleRef} className="title-container">
-                <TextPressure text="I NOSTRI PROGETTI" flex alpha={false} stroke={false} width weight italic textColor="#fff" strokeColor="#f00" minFontSize={36} />
+                {isMobile ? (
+                    <h1 className="mobile-title">I NOSTRI PROGETTI</h1>
+                ) : (
+                    <TextPressure text="I NOSTRI PROGETTI" flex alpha={false} stroke={false} width weight italic textColor="#fff" strokeColor="#f00" minFontSize={36} />
+                )}
             </div>
 
             <div ref={textRef} className="paragraph-container">
@@ -161,7 +172,6 @@ export default function Progetti() {
                 )}
             </div>
 
-
             <div className="cta-section">
                 <div className="cta-text">
                     <p>
@@ -178,7 +188,6 @@ export default function Progetti() {
                     Prenota una Consulenza
                 </Link>
             </div>
-
         </div>
     );
 }

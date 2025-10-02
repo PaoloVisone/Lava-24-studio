@@ -47,11 +47,14 @@ export default function Hero() {
                     transition={{ delay: 0.2, duration: 3.5 }}
                     className="hero-subtitle"
                 >
-                    Non tutti i brand meritano attenzione. <br />
+                    {/* Non tutti i brand meritano attenzione. <br />
                     Solo quelli che hanno qualcosa da dire. <br />
                     Noi trasformiamo quel messaggio <br />
                     in qualcosa di impossibile da ignorare. <br />
-                    Visivamente. Strategicamente. Con marchio a fuoco.
+                    Visivamente. Strategicamente. Con marchio a fuoco. */}
+                    Eleva il tuo brand con <strong>strategie di branding</strong>, <br />
+                    <strong>content creation</strong> e <strong>video marketing</strong> pensate per <br />
+                    <strong>distinguerti</strong> e <strong>convertire</strong>.
                 </motion.p>
             </div>
             {/* Separatore */}

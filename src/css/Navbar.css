@@ -19,7 +19,7 @@
 }
 
 .logo img {
-    width: 280px;
+    width: 220px;
     transition: transform 0.3s ease;
 }
 
@@ -30,18 +30,18 @@
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 
 /* pulsanti di navigazione con effetto “gooey bubble” */
 .nav-links a {
     text-decoration: none;
-    color: #ff4d00;
+    color: #fff;
     font-weight: 600;
     font-size: 1.1rem;
-    padding: 0.5em 1.2em;
-    border-radius: 1vw;
-    background: rgba(255, 77, 0, 0.1);
+    /* padding: 0.5em 1.2em; */
+    /* border-radius: 1vw; */
+    /* background: rgba(255, 77, 0, 0.1); */
     position: relative;
     overflow: hidden;
     transition:
@@ -58,7 +58,7 @@
     left: 50%;
     width: 0;
     height: 0;
-    background: rgba(255, 77, 0, 0.2);
+    /* background: rgba(255, 77, 0, 0.2); */
     border-radius: 50%;
     transform: translate(-50%, -50%);
     transition: width 0.4s ease, height 0.4s ease;
@@ -67,8 +67,7 @@
 
 .nav-links a:hover {
     color: #fff;
-    background: #ff4d00;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    /* background: #ff4d00; */
 }
 
 .nav-links a:hover::before {
@@ -78,28 +77,20 @@
 
 /* link corrente */
 .nav-links a.active {
-    background: #fff;
+    /* background: #fff; */
     color: #ff4d00;
+    border-bottom: 1px solid #ff4d00;
     font-weight: 700;
     box-shadow: 0 2px 8px rgba(255, 77, 0, 0.07);
 }
 
 .nav-links a:hover:not(.active) {
     color: #ffb380;
-    background: rgba(255, 77, 0, 0.07);
+    /* background: rgba(255, 77, 0, 0.07); */
 }
 
-.navbar-gooeynav {
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-}
 
 @media (max-width: 1024px) {
-    .navbar-gooeynav {
-        display: none;
-    }
-
     .nav-links {
         display: none;
     }

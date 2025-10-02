@@ -11,10 +11,10 @@ export default function ProjectCarousel() {
     });
 
     const buttons = [
-        { text: '· Chi Siamo', link: '#team' },
-        { text: '· Cosa Facciamo', link: '#faq' },
-        { text: '· Portfolio', link: '#progetti' },
-        { text: '· Prenota una Call', link: '#contatti' }
+        { text: '· CHI SIAMO', link: '#team' },
+        { text: '· COSA FACCIAMO', link: '#faq' },
+        { text: '· PORTFOLIO', link: '#progetti' },
+        { text: '· PRENOTA UNA CALL', link: '#contatti' }
     ];
 
     // Duplica i bottoni per creare l'effetto infinito

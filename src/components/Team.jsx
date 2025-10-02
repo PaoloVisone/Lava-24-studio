@@ -1,15 +1,6 @@
 import { motion } from 'framer-motion';
-// import Card from './Card';
 import '../css/Team.css';
 import ProfileCard from '../components/ProfileCard'
-
-// const teamData = [
-//     {
-//         name: "Salvatore E. Giaquinto",
-//         role: "Co Founder / Filmmaker",
-//         img: "/mixdaily.jpeg"
-//     }
-// ];
 
 export default function Team() {
     return (
@@ -35,18 +26,6 @@ export default function Team() {
                     enableTilt={true}
                     enableMobileTilt={false}
                     onContactClick={() => window.open("https://www.instagram.com/imnotzeno/?hl=it", "_blank")}
-                />
-                <ProfileCard
-                    name="SALVATORE GIAQUINTO"
-                    title="CO-FOUNDER"
-                    handle="lvatoresa.film"
-                    status=""
-                    contactText="Contact Me"
-                    avatarUrl="../Salvatore3957293.png"
-                    showUserInfo={true}
-                    enableTilt={true}
-                    enableMobileTilt={false}
-                    onContactClick={() => window.open("https://www.instagram.com/lvatoresa.film/", "_blank")}
                 />
                 {/* </motion.div> */}
                 {/* ))} */}

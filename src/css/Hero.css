@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 130vh;
+    min-height: 100vh;
     background-color: black;
     text-align: center;
     position: relative;
@@ -27,9 +27,9 @@
 
 .hero-overlay {
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
     left: 0;
-    padding: 20px;
+    padding: 1rem 2rem;
     text-align: center;
     color: white;
     width: 100%;
@@ -38,7 +38,7 @@
 /* Container per il text pressure effect */
 .hero-title-container {
     text-align: start;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     width: 100%;
 }
 
@@ -80,9 +80,9 @@
 }
 
 .hero-subtitle {
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     text-align: start;
-    font-weight: lighter;
+    font-weight: 200;
 }
 
 /* Separatore */
